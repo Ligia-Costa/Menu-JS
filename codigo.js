@@ -1,6 +1,6 @@
 function updateDateTime() {
     const now = new Date();
-    const dateTimeString = now.toLocaleString('pt-br');
+    const dateTimeString = now.toLocaleString('pt-br'); //hora local, do computador
     document.getElementById('datetime').textContent = "Data e Hora: " + dateTimeString;
 }
 updateDateTime(); // Atualiza a data e hora quando a página carrega
