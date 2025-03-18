@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Transporte</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Título da página -->
+    <h2>Calculadora de Custo de Transporte</h2>
+    
+    <!-- Campo para inserir a quantidade de funcionários -->
+    <label for="funcionarios">Quantidade de funcionários:</label>
+    <input type="number" id="funcionarios">
+    
+    <!-- Campo para inserir a quantidade de dias úteis -->
+    <label for="dias">Quantidade de dias úteis:</label>
+    <input type="number" id="dias">
+    
+    <!-- Botão para calcular o custo total -->
+    <button onclick="calcularCusto()">Calcular</button>
+    
+    <!-- Local onde será exibido o custo mensal -->
+    <p id="resultado"></p>
+
+    <script src="codigo.js"></script>
+</body>
+</html>

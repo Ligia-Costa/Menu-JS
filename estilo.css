@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0e7ff, #f0f2f5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    max-width: 900px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.menu {
+    width: 30%;
+    background: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu h2 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.link {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    background: #ffc107;
+    color: black;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.link:hover {
+    background: #e0a800;
+}
+
+.content {
+    flex: 1;
+    padding: 12vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p {
+    color: #555;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#datetime {
+    font-weight: bold;
+    color: #222;
+    font-size: 16px;
+    margin-top: 10px;
+}

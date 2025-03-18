@@ -1,0 +1,72 @@
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e0e7ff, #f0f2f5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    color: #333;
+}
+
+/* Título da página */
+h2 {
+    font-size: 2rem;
+    color: #5a5a5a;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os campos de input e rótulos */
+label {
+    font-size: 1rem;
+    margin: 10px 0;
+    display: inline-block;
+    color: #555;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do resultado */
+#resultado {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+}
